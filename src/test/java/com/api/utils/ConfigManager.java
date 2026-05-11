@@ -18,7 +18,7 @@ public class ConfigManager {
 	
 	static {
 
-		env = System.getProperty("env","dev");
+		env = System.getProperty("env","qa");
 		env= env.toLowerCase().trim();
 		System.out.println("Running test :"+env);
 		
