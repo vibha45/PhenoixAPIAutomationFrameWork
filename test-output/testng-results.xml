@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-11T14:28:29 IST" name="Default suite" finished-at="2026-05-11T14:28:31 IST" duration-ms="2050">
+  <suite started-at="2026-05-12T11:02:41 IST" name="Suite1" finished-at="2026-05-12T11:02:46 IST" duration-ms="4424">
     <groups>
     </groups>
-    <test started-at="2026-05-11T14:28:29 IST" name="Default test" finished-at="2026-05-11T14:28:31 IST" duration-ms="2050">
-      <class name="com.api.test.MasterAPITest">
-        <test-method signature="invalidTokenMasterAPITest()[pri:0, instance:com.api.test.MasterAPITest@7cc0cdad]" started-at="2026-05-11T14:28:29 IST" name="invalidTokenMasterAPITest" finished-at="2026-05-11T14:28:31 IST" duration-ms="2005" status="PASS">
+    <test started-at="2026-05-12T11:02:41 IST" name="InWarrenty Flow Test" finished-at="2026-05-12T11:02:46 IST" duration-ms="4424">
+      <class name="com.api.test.CountAPITest">
+        <test-method signature="countAPITest_MissingAuthToken()[pri:0, instance:com.api.test.CountAPITest@6caf0677]" started-at="2026-05-12T11:02:45 IST" name="countAPITest_MissingAuthToken" finished-at="2026-05-12T11:02:45 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidTokenMasterAPITest -->
-      </class> <!-- com.api.test.MasterAPITest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- countAPITest_MissingAuthToken -->
+        <test-method signature="verifyCountAPIResponse()[pri:0, instance:com.api.test.CountAPITest@6caf0677]" started-at="2026-05-12T11:02:45 IST" name="verifyCountAPIResponse" finished-at="2026-05-12T11:02:46 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountAPIResponse -->
+      </class> <!-- com.api.test.CountAPITest -->
+      <class name="com.api.test.LoginAPITest">
+        <test-method signature="loginAPITest()[pri:0, instance:com.api.test.LoginAPITest@1349883]" started-at="2026-05-12T11:02:41 IST" name="loginAPITest" finished-at="2026-05-12T11:02:44 IST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPITest -->
+      </class> <!-- com.api.test.LoginAPITest -->
+      <class name="com.api.test.UserDetailsAPITest">
+        <test-method signature="userDetailsAPITest()[pri:0, instance:com.api.test.UserDetailsAPITest@645aa696]" started-at="2026-05-12T11:02:44 IST" name="userDetailsAPITest" finished-at="2026-05-12T11:02:45 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetailsAPITest -->
+      </class> <!-- com.api.test.UserDetailsAPITest -->
+    </test> <!-- InWarrenty Flow Test -->
+  </suite> <!-- Suite1 -->
 </testng-results>
