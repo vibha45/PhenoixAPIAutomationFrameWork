@@ -28,4 +28,11 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean test -DsuiteXMLFile=testng.xml -Denv=qa
+      run: mvn clean test -DsuiteXMLFile=testng.xml -Denv=qa     
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v7.0.1
+      with:
+       name: SureFire Report
+       path: target/surefire-reports/
+       retention-days: 10
+   
