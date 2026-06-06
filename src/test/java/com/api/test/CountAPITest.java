@@ -6,8 +6,6 @@ import java.io.IOException;
 import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
-import static org.hamcrest.Matcher.*;
-
 import static com.api.constants.Roles.*;
 import com.api.utils.AuthTokenProvider;
 import com.api.utils.ConfigManager;

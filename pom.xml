@@ -18,8 +18,8 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.5.5</version>
         <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+					<suiteXmlFiles>
+						<suiteXmlFile>${suiteXMLFile}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
